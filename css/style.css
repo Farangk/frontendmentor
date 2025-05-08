@@ -1,5 +1,48 @@
-<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
+:root{ 
+  --White: hsl(0, 0%, 100%);
+  --Slate300: hsl(212, 45%, 89%);
+  --Slate500: hsl(216, 15%, 48%);
+  --bold: 
+}
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
 
+body{
+  font-family: "Space Mono", monospace;
+  background-color: var(--Slate300);
+}
+  img{
+    width: 260px;
+    height: 260px;
+    border-radius: 3.5%;
+  }
+  
+  .container{ 
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: var(--White);
+      padding: 1rem 1rem;
+      margin: 2rem auto; 
+      max-width:270px;
+      width:100%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 3.5%;
+    }
+
+    .bold{
+      font-weight: 700;
+      text-align: center;
+    }
+
+    .normal{
+      font-weight: 400;
+      color: var(--Slate500);
+      text-align: center;
+    }
+
+
+    
+  
